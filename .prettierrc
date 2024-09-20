@@ -1,0 +1,28 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": false,
+  "quoteProps": "preserve",
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "strict",
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ["*.css"],
+      "options": {
+        "printWidth": 120
+      }
+    }
+  ]
+}

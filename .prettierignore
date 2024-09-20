@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+.gitignore
+.vscode
+.editorconfig
+.nvmrc
+.prettierignore
+.prettier.js
