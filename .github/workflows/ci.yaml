@@ -11,7 +11,7 @@ jobs:
     name: Lint and test
 
     steps:
-          - name: Checkout project
+      - name: Checkout project
         uses: actions/checkout@v4
 
       - name: Setup node
