@@ -7,7 +7,7 @@ on:
 
 jobs:
   ci:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     name: Lint and test
 
     steps:
