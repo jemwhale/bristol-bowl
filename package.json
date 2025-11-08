@@ -8,9 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test:watch": "ng test",
     "test": "ng test --browsers=ChromeHeadless --watch=false",
-    "format:check": "prettier . --check",
+    "format": "prettier . --check",
     "format:fix": "prettier . --write",
-    "lint": "ng lint && npx stylelint '**/*.css'"
+    "lint": "ng lint && stylelint '**/*.css'",
+    "lint:fix": "ng lint --fix && stylelint '**/*.css' --fix"
   },
   "private": true,
   "dependencies": {
