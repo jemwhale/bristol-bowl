@@ -1,4 +1,4 @@
-/* Reset ------------*/
+/* Reset ------------ */
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -13,6 +13,7 @@
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
+    /* stylelint-disable-next-line property-no-unknown */
     interpolate-size: allow-keywords;
   }
 }
@@ -20,6 +21,7 @@
 body {
   /* 4. Add accessible line-height */
   line-height: 1.5;
+
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
 }
@@ -44,6 +46,7 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   text-wrap: pretty;
 }
+
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
@@ -51,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 /*
   10. Create a root stacking context
 */
+/* stylelint-disable-next-line selector-id-pattern */
 #root, #__next {
   isolation: isolate;
 }

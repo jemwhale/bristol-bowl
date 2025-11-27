@@ -1,6 +1,5 @@
 :root {
-
-  /* Scaling  (minor third) ------------*/
+  /* Scaling  (minor third) ------------ */
 
   --bb-text-size-80: 0.694rem;
   --bb-text-size-90: 0.833rem;
@@ -11,12 +10,9 @@
   --bb-text-size-500: 2.074rem;
   --bb-text-size-600: 2.488rem;
   --bb-text-size-700: 2.986rem;
-
   --bb-text-spacing-90: -0.022em;
-  
   --bb-text-line-height-90: 1.15;
   --bb-text-line-height-100: 1.5;
-
   --bb-whitespace-scale: 1.5;
   --bb-whitespace-100: 1rem;
   --bb-whitespace-90: calc(var(--bb-whitespace-100) / var(--bb-whitespace-scale));
@@ -26,23 +22,21 @@
   --bb-whitespace-400: calc(var(--bb-whitespace-300) * var(--bb-whitespace-scale));
   --bb-whitespace-500: calc(var(--bb-whitespace-400) * var(--bb-whitespace-scale));
 
-  /* Palette ------------*/
+  /* Palette ------------ */
 
   --bb-palette-black: #000;
   --bb-palette-white: #fff;
 
-  /* Type ------------*/
+  /* Type ------------ */
 
   --bb-text-font: "Montserrat", sans-serif;
-
   --bb-type-heading-font: var(--bb-text-font);
   --bb-type-heading-spacing: var(--bb-text-spacing-90);
   --bb-type-heading-line-height: var(--bb-text-line-height-90);
-
   --bb-type-body-font: var(--bb-text-font);
   --bb-type-body-line-height: var(--bb-text-line-height-100);
 
-  /* Colour ------------*/
+  /* Colour ------------ */
 
   --bb-colour-primary: var(--bb-palette-white);
   --bb-colour-on-primary: var(--bb-palette-black);

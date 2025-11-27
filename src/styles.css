@@ -1,20 +1,20 @@
-/* Embedded fonts ------------*/
+/* Embedded fonts ------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
-/* Tokens ------------*/
+/* Tokens ------------ */
 
 @import url('./tokens.css');
 
-/* Reset ------------*/
+/* Reset ------------ */
 
 @import url('./reset.css');
 
-/* Typography ------------*/
+/* Typography ------------ */
 
 @import url('./typography.css');
 
-/* Spacing ------------*/
+/* Spacing ------------ */
 
 @import url('./spacing.css');
