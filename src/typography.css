@@ -7,40 +7,45 @@ body {
   background-color: var(--bb-colour-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--bb-type-heading-font);
   line-height: var(--bb-type-heading-line-height);
   letter-spacing: var(--bb-type-heading-spacing);
 }
 
 h1 {
-    font-size: var(--bb-text-size-700);
+  font-size: var(--bb-text-size-700);
 }
 
 h2 {
-    font-size: var(--bb-text-size-600);
+  font-size: var(--bb-text-size-600);
 }
 
 h3 {
-    font-size: var(--bb-text-size-500);
+  font-size: var(--bb-text-size-500);
 }
 
 h4 {
-    font-size: var(--bb-text-size-400);
+  font-size: var(--bb-text-size-400);
 }
 
 h5 {
-    font-size: var(--bb-text-size-300);
+  font-size: var(--bb-text-size-300);
 }
 
 h6 {
-    font-size: var(--bb-text-size-200);
+  font-size: var(--bb-text-size-200);
 }
 
 p {
-    font-size: var(--bb-text-size-100);
+  font-size: var(--bb-text-size-100);
 }
 
 small {
-    font-size: var(--bb-text-size-90);
+  font-size: var(--bb-text-size-90);
 }
