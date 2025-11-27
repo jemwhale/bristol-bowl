@@ -1,0 +1,12 @@
+body {
+  --bb-viewport-padding: var(--bb-whitespace-300);
+  padding: 0 var(--bb-viewport-padding);
+}
+
+h1, h2, h3, h4, h5, h6, p, small {
+  margin-bottom: var(--bb-whitespace-100);
+}
+
+section, .section {
+    margin-bottom: var(--bb-whitespace-300);
+}
