@@ -5,16 +5,16 @@
 
 /* Tokens ------------ */
 
-@import url("./tokens.css");
+@import url("./styles/tokens.css");
 
 /* Reset ------------ */
 
-@import url("./reset.css");
+@import url("./styles/reset.css");
 
 /* Typography ------------ */
 
-@import url("./typography.css");
+@import url("./styles/typography.css");
 
 /* Spacing ------------ */
 
-@import url("./spacing.css");
+@import url("./styles/spacing.css");
