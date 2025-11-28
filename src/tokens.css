@@ -33,8 +33,10 @@
   --bb-type-heading-font: var(--bb-text-font);
   --bb-type-heading-spacing: var(--bb-text-spacing-90);
   --bb-type-heading-line-height: var(--bb-text-line-height-90);
+  --bb-type-heading-weight: 700;
   --bb-type-body-font: var(--bb-text-font);
   --bb-type-body-line-height: var(--bb-text-line-height-100);
+  --bb-type-body-weight: 500;
 
   /* Colour ------------ */
 
