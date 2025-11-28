@@ -8,18 +8,6 @@ body {
   background-color: var(--bb-colour-primary);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--bb-type-heading-font);
-  line-height: var(--bb-type-heading-line-height);
-  letter-spacing: var(--bb-type-heading-spacing);
-  font-weight: var(--bb-type-heading-weight);
-}
-
 h1 {
   font-size: var(--bb-text-size-700);
 }
@@ -50,4 +38,21 @@ p {
 
 small {
   font-size: var(--bb-text-size-90);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--bb-type-heading-font);
+  line-height: var(--bb-type-heading-line-height);
+  letter-spacing: var(--bb-type-heading-spacing);
+  font-weight: var(--bb-type-heading-weight);
+
+  p ~ &,
+  small ~ & {
+    margin-top: var(--bb-whitespace-300);
+  }
 }

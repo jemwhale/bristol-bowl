@@ -18,4 +18,9 @@ small {
 section,
 .section {
   margin-bottom: var(--bb-whitespace-300);
+
+  p ~ &,
+  small ~ & {
+    margin-top: var(--bb-whitespace-300);
+  }
 }
