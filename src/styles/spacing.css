@@ -1,7 +1,7 @@
 body {
-  --bb-viewport-padding: var(--bb-whitespace-300);
+  --bb-sys-viewport-padding: var(--bb-sys-space-large);
 
-  padding: 0 var(--bb-viewport-padding);
+  padding: 0 var(--bb-sys-viewport-padding);
 }
 
 h1,
@@ -12,15 +12,15 @@ h5,
 h6,
 p,
 small {
-  margin-bottom: var(--bb-whitespace-100);
+  margin-bottom: var(--bb-sys-space-regular);
 }
 
 section,
 .section {
-  margin-bottom: var(--bb-whitespace-300);
+  margin-bottom: var(--bb-sys-space-large);
 
   p ~ &,
   small ~ & {
-    margin-top: var(--bb-whitespace-300);
+    margin-top: var(--bb-sys-space-large);
   }
 }
