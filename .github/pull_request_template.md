@@ -21,7 +21,8 @@ Describe the changes introduced by this PR.
 
 ## Checklist:
 
-- [ ] PR title follows the pattern `Ticket-Number | type: message`
+- [ ] PR title follows the pattern `<Ticket-Number> | <Ticket title>`
 - [ ] PR targets main branch
+- [ ] All commit messages follow the pattern `<type>(<ticket reference>): <description>`
 - [ ] All commits signed
 - [ ] Added unit tests (if applicable)

@@ -1,0 +1,75 @@
+:root {
+  /* Reference Tokens ------------ */
+
+  /* Text */
+
+  --bb-ref-text-size-80: 0.694rem;
+  --bb-ref-text-size-90: 0.833rem;
+  --bb-ref-text-size-100: 1rem;
+  --bb-ref-text-size-200: 1.2rem;
+  --bb-ref-text-size-300: 1.44rem;
+  --bb-ref-text-size-400: 1.728rem;
+  --bb-ref-text-size-500: 2.074rem;
+  --bb-ref-text-size-600: 2.488rem;
+  --bb-ref-text-size-700: 2.986rem;
+  --bb-ref-text-spacing-90: -0.022em;
+  --bb-ref-text-line-height-90: 1.15;
+  --bb-ref-text-line-height-100: 1.5;
+
+  /* Font */
+
+  --bb-ref-text-font: "Montserrat", sans-serif;
+  --bb-ref-font-weight: 500;
+  --bb-ref-font-weight-medium: 700;
+
+  /* Space */
+
+  --bb-ref-whitespace-90: 0.75rem; /* 12px */
+  --bb-ref-whitespace-80: 0.5rem; /* 8px */
+  --bb-ref-whitespace-100: 1rem; /* 16px */
+  --bb-ref-whitespace-200: 1.5rem; /* 24px */
+  --bb-ref-whitespace-300: 2.25rem; /* 36px */
+  --bb-ref-whitespace-400: 3.5rem; /* 52px */
+  --bb-ref-whitespace-500: 5rem; /* 80px */
+
+  /* Palette */
+
+  --bb-ref-palette-black: #000;
+  --bb-ref-palette-white: #fff;
+
+  /* System Tokens ------------ */
+
+  /* Type */
+
+  --bb-sys-type-heading-font: var(--bb-ref-text-font);
+  --bb-sys-type-heading-spacing: var(--bb-ref-text-spacing-90);
+  --bb-sys-type-heading-line-height: var(--bb-ref-text-line-height-90);
+  --bb-sys-type-heading-weight: var(--bb-ref-font-weight-medium);
+  --bb-sys-type-heading-size-main: var(--bb-ref-text-size-700);
+  --bb-sys-type-heading-size-sub-1: var(--bb-ref-text-size-600);
+  --bb-sys-type-heading-size-sub-2: var(--bb-ref-text-size-500);
+  --bb-sys-type-heading-size-sub-3: var(--bb-ref-text-size-400);
+  --bb-sys-type-heading-size-sub-4: var(--bb-ref-text-size-300);
+  --bb-sys-type-heading-size-sub-5: var(--bb-ref-text-size-200);
+  --bb-sys-type-body-font: var(--bb-ref-text-font);
+  --bb-sys-type-body-line-height: var(--bb-ref-text-line-height-100);
+  --bb-sys-type-body-weight: var(--bb-ref-font-weight);
+  --bb-sys-type-body-size-small: var(--bb-ref-text-size-90);
+  --bb-sys-type-body-size-xsmall: var(--bb-ref-text-size-80);
+  --bb-sys-type-body-size-regular: var(--bb-ref-text-size-100);
+
+  /* Space */
+
+  --bb-sys-space-xsmall: var(--bb-ref-whitespace-80);
+  --bb-sys-space-small: var(--bb-ref-whitespace-90);
+  --bb-sys-space-regular: var(--bb-ref-whitespace-100);
+  --bb-sys-space-medium: var(--bb-ref-whitespace-200);
+  --bb-sys-space-large: var(--bb-ref-whitespace-300);
+  --bb-sys-space-xlarge: var(--bb-ref-whitespace-400);
+  --bb-sys-space-xxlarge: var(--bb-ref-whitespace-500);
+
+  /* Colour ------------ */
+
+  --bb-sys-colour-primary: var(--bb-ref-palette-white);
+  --bb-sys-colour-on-primary: var(--bb-ref-palette-black);
+}

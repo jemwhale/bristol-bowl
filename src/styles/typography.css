@@ -1,0 +1,58 @@
+/* Typography ------------ */
+
+body {
+  font-family: var(--bb-sys-type-body-font);
+  line-height: var(--bb-sys-type-body-line-height);
+  font-weight: var(--bb-sys-type-body-weight);
+  color: var(--bb-sys-colour-on-primary);
+  background-color: var(--bb-sys-colour-primary);
+}
+
+h1 {
+  font-size: var(--bb-sys-type-heading-size-main);
+}
+
+h2 {
+  font-size: var(--bb-sys-type-heading-size-sub-1);
+}
+
+h3 {
+  font-size: var(--bb-sys-type-heading-size-sub-2);
+}
+
+h4 {
+  font-size: var(--bb-sys-type-heading-size-sub-3);
+}
+
+h5 {
+  font-size: var(--bb-sys-type-heading-size-sub-4);
+}
+
+h6 {
+  font-size: var(--bb-sys-type-heading-size-sub-5);
+}
+
+p {
+  font-size: var(--bb-sys-type-body-size-regular);
+}
+
+small {
+  font-size: var(--bb-sys-type-body-size-small);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--bb-sys-type-heading-font);
+  line-height: var(--bb-sys-type-heading-line-height);
+  letter-spacing: var(--bb-sys-type-heading-spacing);
+  font-weight: var(--bb-sys-type-heading-weight);
+
+  p ~ &,
+  small ~ & {
+    margin-top: var(--bb-sys-space-large);
+  }
+}

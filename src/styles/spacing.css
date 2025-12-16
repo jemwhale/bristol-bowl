@@ -1,0 +1,26 @@
+body {
+  --bb-sys-viewport-padding: var(--bb-sys-space-large);
+
+  padding: 0 var(--bb-sys-viewport-padding);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small {
+  margin-bottom: var(--bb-sys-space-regular);
+}
+
+section,
+.section {
+  margin-bottom: var(--bb-sys-space-large);
+
+  p ~ &,
+  small ~ & {
+    margin-top: var(--bb-sys-space-large);
+  }
+}
