@@ -9,35 +9,35 @@ body {
 }
 
 h1 {
-  font-size: var(--bb-sys-type-heading-size-main);
+  font-size: var(--bb-sys-type-heading-size-xxl);
 }
 
 h2 {
-  font-size: var(--bb-sys-type-heading-size-sub-1);
+  font-size: var(--bb-sys-type-heading-size-xl);
 }
 
 h3 {
-  font-size: var(--bb-sys-type-heading-size-sub-2);
+  font-size: var(--bb-sys-type-heading-size-lg);
 }
 
 h4 {
-  font-size: var(--bb-sys-type-heading-size-sub-3);
+  font-size: var(--bb-sys-type-heading-size-md);
 }
 
 h5 {
-  font-size: var(--bb-sys-type-heading-size-sub-4);
+  font-size: var(--bb-sys-type-heading-size-sm);
 }
 
 h6 {
-  font-size: var(--bb-sys-type-heading-size-sub-5);
+  font-size: var(--bb-sys-type-heading-size-xs);
 }
 
 p {
-  font-size: var(--bb-sys-type-body-size-regular);
+  font-size: var(--bb-sys-type-body-size-sm);
 }
 
 small {
-  font-size: var(--bb-sys-type-body-size-small);
+  font-size: var(--bb-sys-type-body-size-xs);
 }
 
 h1,
@@ -53,6 +53,6 @@ h6 {
 
   p ~ &,
   small ~ & {
-    margin-top: var(--bb-sys-space-large);
+    margin-top: var(--bb-sys-space-lg);
   }
 }

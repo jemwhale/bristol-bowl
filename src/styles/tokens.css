@@ -32,6 +32,26 @@
   --bb-ref-whitespace-400: 3.5rem; /* 52px */
   --bb-ref-whitespace-500: 5rem; /* 80px */
 
+  --bb-ref-whitespace-base: 0.25rem;
+  --bb-ref-whitespace-90: calc(var(--bb-ref-whitespace-base) * 1); /* 4px */
+  --bb-ref-whitespace-100: calc(var(--bb-ref-whitespace-base) * 2); /* 8px */
+  --bb-ref-whitespace-150: calc(var(--bb-ref-whitespace-base) * 3); /* 12px */
+  --bb-ref-whitespace-200: calc(var(--bb-ref-whitespace-base) * 4); /* 16px */
+  --bb-ref-whitespace-250: calc(var(--bb-ref-whitespace-base) * 5); /* 20px */
+  --bb-ref-whitespace-300: calc(var(--bb-ref-whitespace-base) * 6); /* 24px */
+  --bb-ref-whitespace-350: calc(var(--bb-ref-whitespace-base) * 7); /* 28px */
+  --bb-ref-whitespace-400: calc(var(--bb-ref-whitespace-base) * 8); /* 32px */
+  --bb-ref-whitespace-450: calc(var(--bb-ref-whitespace-base) * 9); /* 36px */
+  --bb-ref-whitespace-500: calc(var(--bb-ref-whitespace-base) * 10); /* 40px */
+  --bb-ref-whitespace-550: calc(var(--bb-ref-whitespace-base) * 11); /* 44px */
+  --bb-ref-whitespace-600: calc(var(--bb-ref-whitespace-base) * 12); /* 48px */
+  --bb-ref-whitespace-650: calc(var(--bb-ref-whitespace-base) * 13); /* 52px */
+  --bb-ref-whitespace-700: calc(var(--bb-ref-whitespace-base) * 14); /* 56px */
+  --bb-ref-whitespace-750: calc(var(--bb-ref-whitespace-base) * 15); /* 60px */
+  --bb-ref-whitespace-800: calc(var(--bb-ref-whitespace-base) * 16); /* 64px */
+
+
+
   /* Palette */
 
   --bb-ref-palette-black: #000;
@@ -45,28 +65,28 @@
   --bb-sys-type-heading-spacing: var(--bb-ref-text-spacing-90);
   --bb-sys-type-heading-line-height: var(--bb-ref-text-line-height-90);
   --bb-sys-type-heading-weight: var(--bb-ref-font-weight-medium);
-  --bb-sys-type-heading-size-main: var(--bb-ref-text-size-700);
-  --bb-sys-type-heading-size-sub-1: var(--bb-ref-text-size-600);
-  --bb-sys-type-heading-size-sub-2: var(--bb-ref-text-size-500);
-  --bb-sys-type-heading-size-sub-3: var(--bb-ref-text-size-400);
-  --bb-sys-type-heading-size-sub-4: var(--bb-ref-text-size-300);
-  --bb-sys-type-heading-size-sub-5: var(--bb-ref-text-size-200);
+  --bb-sys-type-heading-size-xs: var(--bb-ref-text-size-200);
+  --bb-sys-type-heading-size-sm: var(--bb-ref-text-size-300);
+  --bb-sys-type-heading-size-md: var(--bb-ref-text-size-400);
+  --bb-sys-type-heading-size-lg: var(--bb-ref-text-size-500);
+  --bb-sys-type-heading-size-xl: var(--bb-ref-text-size-600);
+  --bb-sys-type-heading-size-xxl: var(--bb-ref-text-size-700);
   --bb-sys-type-body-font: var(--bb-ref-text-font);
   --bb-sys-type-body-line-height: var(--bb-ref-text-line-height-100);
   --bb-sys-type-body-weight: var(--bb-ref-font-weight);
-  --bb-sys-type-body-size-small: var(--bb-ref-text-size-90);
-  --bb-sys-type-body-size-xsmall: var(--bb-ref-text-size-80);
-  --bb-sys-type-body-size-regular: var(--bb-ref-text-size-100);
+  --bb-sys-type-body-size-xxs: var(--bb-ref-text-size-80);
+  --bb-sys-type-body-size-xs: var(--bb-ref-text-size-90);
+  --bb-sys-type-body-size-sm: var(--bb-ref-text-size-100);
 
   /* Space */
 
-  --bb-sys-space-xsmall: var(--bb-ref-whitespace-80);
-  --bb-sys-space-small: var(--bb-ref-whitespace-90);
-  --bb-sys-space-regular: var(--bb-ref-whitespace-100);
-  --bb-sys-space-medium: var(--bb-ref-whitespace-200);
-  --bb-sys-space-large: var(--bb-ref-whitespace-300);
-  --bb-sys-space-xlarge: var(--bb-ref-whitespace-400);
-  --bb-sys-space-xxlarge: var(--bb-ref-whitespace-500);
+  --bb-sys-space-xxs: var(--bb-ref-whitespace-90); /* 4px */
+  --bb-sys-space-xs: var(--bb-ref-whitespace-100); /* 8px */
+  --bb-sys-space-sm: var(--bb-ref-whitespace-200); /* 16px */
+  --bb-sys-space-md: var(--bb-ref-whitespace-300); /* 24px */
+  --bb-sys-space-lg: var(--bb-ref-whitespace-400); /* 32px */
+  --bb-sys-space-xl: var(--bb-ref-whitespace-600); /* 48px */
+  --bb-sys-space-xxl: var(--bb-ref-whitespace-800); /* 64px */
 
   /* Colour ------------ */
 
