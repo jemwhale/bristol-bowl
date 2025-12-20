@@ -24,14 +24,6 @@
 
   /* Space */
 
-  --bb-ref-whitespace-90: 0.75rem; /* 12px */
-  --bb-ref-whitespace-80: 0.5rem; /* 8px */
-  --bb-ref-whitespace-100: 1rem; /* 16px */
-  --bb-ref-whitespace-200: 1.5rem; /* 24px */
-  --bb-ref-whitespace-300: 2.25rem; /* 36px */
-  --bb-ref-whitespace-400: 3.5rem; /* 52px */
-  --bb-ref-whitespace-500: 5rem; /* 80px */
-
   --bb-ref-whitespace-base: 0.25rem;
   --bb-ref-whitespace-90: calc(var(--bb-ref-whitespace-base) * 1); /* 4px */
   --bb-ref-whitespace-100: calc(var(--bb-ref-whitespace-base) * 2); /* 8px */
@@ -49,8 +41,6 @@
   --bb-ref-whitespace-700: calc(var(--bb-ref-whitespace-base) * 14); /* 56px */
   --bb-ref-whitespace-750: calc(var(--bb-ref-whitespace-base) * 15); /* 60px */
   --bb-ref-whitespace-800: calc(var(--bb-ref-whitespace-base) * 16); /* 64px */
-
-
 
   /* Palette */
 
