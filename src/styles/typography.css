@@ -1,7 +1,7 @@
 /* Typography ------------ */
 
 body {
-  font-family: var(--bb-sys-type-body-font);
+  font-family: var(--bb-sys-type-body-typeface);
   line-height: var(--bb-sys-type-body-line-height);
   font-weight: var(--bb-sys-type-body-weight);
   color: var(--bb-sys-colour-on-primary);
@@ -33,11 +33,11 @@ h6 {
 }
 
 p {
-  font-size: var(--bb-sys-type-body-size-sm);
+  font-size: var(--bb-sys-type-body-size-md);
 }
 
 small {
-  font-size: var(--bb-sys-type-body-size-xs);
+  font-size: var(--bb-sys-type-body-size-sm);
 }
 
 h1,
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--bb-sys-type-heading-font);
+  font-family: var(--bb-sys-type-heading-typeface);
   line-height: var(--bb-sys-type-heading-line-height);
   letter-spacing: var(--bb-sys-type-heading-spacing);
   font-weight: var(--bb-sys-type-heading-weight);
