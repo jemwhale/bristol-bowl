@@ -41,10 +41,9 @@
 
   /* Palette */
 
-  
-  --bb-ref-palette-black-100 :#2b2c34;
-  --bb-ref-palette-black-200 :#16161a;
-  --bb-ref-palette-black-300 :hsl(210deg 15% 6%);
+  --bb-ref-palette-black-100: #2b2c34;
+  --bb-ref-palette-black-200: #16161a;
+  --bb-ref-palette-black-300: hsl(210deg 15% 6%);
   --bb-ref-palette-black-1000: #000;
   --bb-ref-palette-white-100: #e3e6e8;
   --bb-ref-palette-white-200: #fffffe;
@@ -115,7 +114,7 @@
   --bb-ref-palette-gray-800: hsl(225deg 20% 30%);
   --bb-ref-palette-gray-900: hsl(225deg 25% 20%);
   --bb-ref-palette-gray-1000: hsl(225deg 15% 15%);
-  
+
   /* System Tokens ------------ */
 
   /* Colour */
