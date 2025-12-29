@@ -41,15 +41,91 @@
 
   /* Palette */
 
-  --bb-ref-palette-black: #000;
-  --bb-ref-palette-white: #fff;
+  --bb-ref-palette-black-100: #2b2c34;
+  --bb-ref-palette-black-200: #16161a;
+  --bb-ref-palette-black-300: hsl(210deg 15% 6%);
+  --bb-ref-palette-black-1000: #000;
+  --bb-ref-palette-white-100: #e3e6e8;
+  --bb-ref-palette-white-200: #fffffe;
+  --bb-ref-palette-white-1000: #fff;
+  --bb-ref-palette-red-50: oklch(97.1% 0.013 17.38deg);
+  --bb-ref-palette-red-100: oklch(93.6% 0.032 17.717deg);
+  --bb-ref-palette-red-200: oklch(88.5% 0.062 18.334deg);
+  --bb-ref-palette-red-300: oklch(80.8% 0.114 19.571deg);
+  --bb-ref-palette-red-400: oklch(70.4% 0.191 22.216deg);
+  --bb-ref-palette-red-500: oklch(63.7% 0.237 25.331deg);
+  --bb-ref-palette-red-600: oklch(57.7% 0.245 27.325deg);
+  --bb-ref-palette-red-700: oklch(50.5% 0.213 27.518deg);
+  --bb-ref-palette-red-800: oklch(44.4% 0.177 26.899deg);
+  --bb-ref-palette-red-900: oklch(39.6% 0.141 25.723deg);
+  --bb-ref-palette-red-950: oklch(25.8% 0.092 26.042deg);
+  --bb-ref-palette-amber-50: oklch(98.7% 0.022 95.277deg);
+  --bb-ref-palette-amber-100: oklch(96.2% 0.059 95.617deg);
+  --bb-ref-palette-amber-200: oklch(92.4% 0.12 95.746deg);
+  --bb-ref-palette-amber-300: oklch(87.9% 0.169 91.605deg);
+  --bb-ref-palette-amber-400: oklch(82.8% 0.189 84.429deg);
+  --bb-ref-palette-amber-500: oklch(76.9% 0.188 70.08deg);
+  --bb-ref-palette-amber-600: oklch(66.6% 0.179 58.318deg);
+  --bb-ref-palette-amber-700: oklch(55.5% 0.163 48.998deg);
+  --bb-ref-palette-amber-800: oklch(47.3% 0.137 46.201deg);
+  --bb-ref-palette-amber-900: oklch(41.4% 0.112 45.904deg);
+  --bb-ref-palette-amber-950: oklch(27.9% 0.077 45.635deg);
+  --bb-ref-palette-yellow-50: oklch(98.7% 0.026 102.212deg);
+  --bb-ref-palette-yellow-100: oklch(97.3% 0.071 103.193deg);
+  --bb-ref-palette-yellow-200: oklch(94.5% 0.129 101.54deg);
+  --bb-ref-palette-yellow-300: oklch(90.5% 0.182 98.111deg);
+  --bb-ref-palette-yellow-400: oklch(85.2% 0.199 91.936deg);
+  --bb-ref-palette-yellow-500: oklch(79.5% 0.184 86.047deg);
+  --bb-ref-palette-yellow-600: oklch(68.1% 0.162 75.834deg);
+  --bb-ref-palette-yellow-700: oklch(55.4% 0.135 66.442deg);
+  --bb-ref-palette-yellow-800: oklch(47.6% 0.114 61.907deg);
+  --bb-ref-palette-yellow-900: oklch(42.1% 0.095 57.708deg);
+  --bb-ref-palette-yellow-950: oklch(28.6% 0.066 53.813deg);
+  --bb-ref-palette-emerald-50: oklch(97.9% 0.021 166.113deg);
+  --bb-ref-palette-emerald-100: oklch(95% 0.052 163.051deg);
+  --bb-ref-palette-emerald-200: oklch(90.5% 0.093 164.15deg);
+  --bb-ref-palette-emerald-300: oklch(84.5% 0.143 164.978deg);
+  --bb-ref-palette-emerald-400: oklch(76.5% 0.177 163.223deg);
+  --bb-ref-palette-emerald-500: oklch(69.6% 0.17 162.48deg);
+  --bb-ref-palette-emerald-600: oklch(59.6% 0.145 163.225deg);
+  --bb-ref-palette-emerald-700: oklch(50.8% 0.118 165.612deg);
+  --bb-ref-palette-emerald-800: oklch(43.2% 0.095 166.913deg);
+  --bb-ref-palette-emerald-900: oklch(37.8% 0.077 168.94deg);
+  --bb-ref-palette-emerald-950: oklch(26.2% 0.051 172.552deg);
+  --bb-ref-palette-sky-50: oklch(97.7% 0.013 236.62deg);
+  --bb-ref-palette-sky-100: oklch(95.1% 0.026 236.824deg);
+  --bb-ref-palette-sky-200: oklch(90.1% 0.058 230.902deg);
+  --bb-ref-palette-sky-300: oklch(82.8% 0.111 230.318deg);
+  --bb-ref-palette-sky-400: oklch(74.6% 0.16 232.661deg);
+  --bb-ref-palette-sky-500: oklch(68.5% 0.169 237.323deg);
+  --bb-ref-palette-sky-600: oklch(58.8% 0.158 241.966deg);
+  --bb-ref-palette-sky-700: oklch(50% 0.134 242.749deg);
+  --bb-ref-palette-sky-800: oklch(44.3% 0.11 240.79deg);
+  --bb-ref-palette-sky-900: oklch(39.1% 0.09 240.876deg);
+  --bb-ref-palette-sky-950: oklch(29.3% 0.066 243.157deg);
+  --bb-ref-palette-gray-50: hsl(225deg 40% 96%);
+  --bb-ref-palette-gray-100: hsl(225deg 25% 92%);
+  --bb-ref-palette-gray-200: hsl(225deg 16% 86%);
+  --bb-ref-palette-gray-300: hsl(225deg 8% 80%);
+  --bb-ref-palette-gray-400: hsl(225deg 8% 70%);
+  --bb-ref-palette-gray-500: hsl(225deg 7% 60%);
+  --bb-ref-palette-gray-600: hsl(225deg 15% 50%);
+  --bb-ref-palette-gray-700: hsl(225deg 12% 40%);
+  --bb-ref-palette-gray-800: hsl(225deg 20% 30%);
+  --bb-ref-palette-gray-900: hsl(225deg 25% 20%);
+  --bb-ref-palette-gray-1000: hsl(225deg 15% 15%);
 
   /* System Tokens ------------ */
 
   /* Colour */
 
-  --bb-sys-colour-primary: var(--bb-ref-palette-white);
-  --bb-sys-colour-on-primary: var(--bb-ref-palette-black);
+  --bb-sys-color-scheme: light dark;
+  --bb-sys-surface-colour: light-dark(var(--bb-ref-palette-white-200), var(--bb-ref-palette-black-300));
+  --bb-sys-on-surface-colour: light-dark(var(--bb-ref-palette-black-100), var(--bb-ref-palette-white-100));
+  --bb-sys-colour-primary: var(--bb-ref-palette-sky-500);
+  --bb-sys-colour-secondary: light-dark(var(--bb-ref-palette-amber-500), var(--bb-ref-palette-amber-600));
+  --bb-sys-colour-tertiary: light-dark(var(--bb-ref-palette-sky-700), var(--bb-ref-palette-amber-200));
+  --bb-sys-colour-action: var(--bb-sys-colour-primary);
 
   /* Space */
 

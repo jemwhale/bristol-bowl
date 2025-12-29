@@ -11,10 +11,14 @@
 
 @import url("./styles/reset.css");
 
-/* Typography ------------ */
-
-@import url("./styles/typography.css");
-
 /* Spacing ------------ */
 
 @import url("./styles/spacing.css");
+
+/* Colour ------------ */
+
+@import url("./styles/colour.css");
+
+/* Typography ------------ */
+
+@import url("./styles/typography.css");

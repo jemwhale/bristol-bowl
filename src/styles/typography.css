@@ -4,8 +4,6 @@ body {
   font-family: var(--bb-sys-type-body-typeface);
   line-height: var(--bb-sys-type-body-line-height);
   font-weight: var(--bb-sys-type-body-weight);
-  color: var(--bb-sys-colour-on-primary);
-  background-color: var(--bb-sys-colour-primary);
 }
 
 h1 {

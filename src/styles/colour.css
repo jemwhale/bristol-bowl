@@ -1,0 +1,8 @@
+:root {
+  color-scheme: var(--bb-sys-color-scheme);
+}
+
+body {
+  background-color: var(--bb-sys-surface-colour);
+  color: var(--bb-sys-on-surface-colour);
+}
