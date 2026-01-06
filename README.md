@@ -4,7 +4,7 @@ Bristol Bowl Web App
 
 ## Get Started
 
-# Dependencies
+### Dependencies
 
 This project is built using the **Node v22.12** and uses **Angular v21**. Make sure you have installed Node in order to run the project locally.
 
@@ -27,7 +27,7 @@ Install dependencies:
 npm install
 ```
 
-# Development server
+### Development server
 
 Run the development server:
 
@@ -35,17 +35,25 @@ Run the development server:
 npm start
 ```
 
-Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
 
-# Build
+### Build
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To build the project. The build artifacts will be stored in the `dist/` directory.
 
-# Running unit tests
+```shell
+npm run build
+```
 
-Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Running unit tests
 
-# Linting
+To execute the unit tests via [Karma](https://karma-runner.github.io).
+
+```shell
+npm run test
+```
+
+### Linting
 
 Run a lint check via [ESLint](https://eslint.org/) ans [Stylelint](https://stylelint.io/):
 
@@ -56,19 +64,19 @@ npm run lint
 Attempt to automatically fix any linting errors:
 
 ```shell
-npm lint:fix
+npm run lint:fix
 ```
 
-# Formatting
+### Formatting
 
 Run a formatting check via [Prettier](https://prettier.io/):
 
 ```shell
-npm format:check
+npm run format:check
 ```
 
 Fix any formatting errors:
 
 ```shell
-npm format:fix
+npm run format:fix
 ```
