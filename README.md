@@ -6,12 +6,15 @@ Bristol Bowl Web App
 
 # Dependencies
 
-This project is built using the **Node v20** and uses **Angular v18**. Make sure you have installed Node in order to run the project locally.
+This project is built using the **Node v22.12** and uses **Angular v21**. Make sure you have installed Node in order to run the project locally.
 
 - [https://nodejs.org](https://nodejs.org)
 - [https://angular.dev](https://angular.dev)
 
-Ensure you are running the correct Node version. With Node Version Manager:
+Ensure you are running the correct Node version.
+
+With [Node Version Manager](https://github.com/nvm-sh/nvm):
+
 Install dependencies:
 
 ```shell
@@ -44,13 +47,21 @@ Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.gi
 
 # Linting
 
+Run a lint check via [ESLint](https://eslint.org/) ans [Stylelint](https://stylelint.io/):
+
 ```shell
 npm run lint
 ```
 
+Attempt to automatically fix any linting errors:
+
+```shell
+npm lint:fix
+```
+
 # Formatting
 
-Run a formatting check:
+Run a formatting check via [Prettier](https://prettier.io/):
 
 ```shell
 npm format:check
